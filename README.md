@@ -1,3 +1,2 @@
 # waf-demo
-
-M
+ociのwaf検証用

@@ -1,4 +1,55 @@
-aaaaaaaa
-aaaaaaaa
-aaaaaaa
-aaaaaa
+<script>
+    window.apmrum = (window.apmrum || {});
+    window.apmrum.serviceName='waf demo';
+    window.apmrum.webApplication='waf demo';
+    window.apmrum.ociDataUploadEndpoint='https://aaaadcd2mj7h6aaaaaaaaacdoq.apm-agt.us-ashburn-1.oci.oraclecloud.com';
+    window.apmrum.OracleAPMPublicDataKey='7ATHHTZ3BJGOYO6ZXJRWGI7WCUR2IAY2';
+  </script>
+  <script async crossorigin="anonymous" src="https://aaaadcd2mj7h6aaaaaaaaacdoq.apm-agt.us-ashburn-1.oci.oraclecloud.com/static/jslib/apmrum.min.js">
+  </script>
+  
+  <!DOCTYPE html>
+  <html lang="ja">
+  <head>
+  <meta charset=utf-8>
+  <title>WAF Demo</title>
+  <style>
+  h1{
+  text-align: center;
+  }
+  .center{
+  text-align: center;
+  }
+  
+  </style>
+  <style>
+  input[type="text"]{
+      font-size: 120%;
+  }
+  input[type="submit"]{
+      font-size: 120%;
+  }
+  </style>
+  </head>
+  <body>
+  <h1>WAF Demo</h1>
+  
+  <p class="center">
+      <form action="db.php" method="post">
+        
+        <table align="center">
+          <tr>
+            <td><font size="5">User ID</font></td>
+            <td><input type="text" name="id"></td>
+          </tr>
+          <tr>
+            <td><font size="5">Password</font></td>
+            <td><input type="text" name="password"></td>
+          </tr>
+        </table>
+        <center><input type="submit" value="Submit"></center>
+  </p>
+  <!-- <p class="center">Web Server1</p> -->
+  </body>
+  </html>
+  
